@@ -802,3 +802,157 @@ border: 1px solid #F1F1F1;
     align-items: center;
 }
   }
+
+
+
+  /* This is for contact page */
+  .contact {
+  background: #2c4fa2;
+  padding: 60px 30px;
+  padding-top: 150px;
+  margin-bottom: 10em;
+}
+.contact .container {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+  .contact .container {
+    flex-direction: column;
+  }
+}
+.contact .form {
+  width: 55%;
+  border-radius: 10px;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  background: white;
+}
+@media screen and (max-width: 770px) {
+  .contact .form {
+    padding: 40px 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact .form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.form__header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #4479dd;
+  margin: 20px 0px;
+}
+.form__display {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  margin: 10px 0px;
+  margin-top: 40px;
+  line-height: 32px;
+  color: #343434;
+}
+@media screen and (max-width: 770px) {
+  .form__display {
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .form__display {
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+.form__info {
+  font-family: "Poppins";
+  margin: 20px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.contact .container .content {
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content__text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+  .contact .container .content {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .content__text {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .content__text {
+    font-size: 16px;
+  }
+}
+.form__form > label,
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.form__form label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.form__form span {
+  color: #eb3238;
+}
+
+.form__form input {
+  border: 1px solid #797878;
+  box-sizing: border-box;
+  outline: none;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+
+.form__form .submit {
+  border: none;
+  color: white;
+  background: #2c4fa2;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* End */
