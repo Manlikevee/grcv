@@ -272,7 +272,6 @@
             .cloudservices {
               width: 100%;
               user-select: none;
-
             }
             .swiper {
               width: 100%;
@@ -376,6 +375,10 @@
               });
             </script>
           </div>
+
+          <div class="container__load load">
+            <button class="load__button">Load More</button>
+          </div>
         </div>
       </div>
     </div>
@@ -432,7 +435,6 @@
 
       links[0].classList.add("activeLink");
       links.forEach((element) => {
-        console.log(element.innerText);
         element.addEventListener("click", (e) => {
           links.forEach((element) => {
             element.classList.remove("activeLink");
