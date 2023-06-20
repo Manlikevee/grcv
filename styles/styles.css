@@ -94,7 +94,7 @@
 }
 .mainHeader__video .video__image {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   z-index: 100;
 }
@@ -175,7 +175,7 @@
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .features .feature .heading__purple {
@@ -274,7 +274,7 @@
 .features .featureContainer__left .cards .card:hover {
   background: rgba(44, 79, 162, 0.1);
   -webkit-backdrop-filter: blur(21px);
-          backdrop-filter: blur(21px);
+  backdrop-filter: blur(21px);
 }
 .features .featureContainer__left .cards .card__header {
   display: flex;
@@ -283,7 +283,7 @@
 }
 .features .featureContainer__left .cards .card__header img {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 .features .featureContainer__left .cards .card__header h3 {
   margin: 0px 10px;
@@ -306,7 +306,7 @@
 }
 .features .featureContainer__right img {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   width: 100%;
   height: -moz-fit-content;
   height: fit-content;
@@ -345,4 +345,15 @@
 }
 .benefitItems .benefittext {
   text-align: center;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+.first__exempt {
+  height: fit-content;
+  margin: 60px 0px;
+  background-image: url(../blog-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px 0px;
+}
+/*# sourceMappingURL=styles.css.map */
