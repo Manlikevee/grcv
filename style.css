@@ -614,6 +614,7 @@ border: 1px solid #F1F1F1;
     line-height: normal;
     letter-spacing: 0px;
     text-align: left;
+    text-align: center;
 }
 .sectionbody {
     font-family: Poppins;
@@ -623,6 +624,7 @@ border: 1px solid #F1F1F1;
     letter-spacing: 0em;
     text-align: left;
 }
+
 
 .sectiontext {
     font-family: Poppins;
@@ -651,10 +653,142 @@ border: 1px solid #F1F1F1;
 
   }
     
+
+  
+.bgx{
+    font-family: Poppins;
+font-size: 38px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: -2px;
+text-align: left;
+
+}
+
+
+.whitesection{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.featurestitle{
+    text-align: center;
+font-family: Poppins;
+font-size: 19px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.20000000298023224px;
+text-align: center;
+color: #2C4FA2;
+margin-bottom: 8px;
+}
+
+
+.featureflex{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.featurebox{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+ padding: 3px;
+    gap: 5PX;
+    height: 100%;
+
+}
+
+.fthead{
+color: #18181B;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: start;
+    
+}
+
+.rmore{
+    text-decoration: none;
+   
+color: #64748B;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.ftbody{
+    margin-top: 8px;
+    margin-bottom: 14px;
+    color: #090914 ;
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+}
+
+.featureimg{
+    width: 55%;
+}
+.featurebox img{
+    width: 100%;
+    height: 100%;
+    max-height: 170px;
+    object-fit: contain;
+}
+
+.featuretext{
+    width: 100%;
+}
+
+.tabz{
+    gap: 0;
+}
+.xs{
+    height: 120vh;
+}
+.tabz .benefitbox{
+    border: none;
+    border: 1px solid #E4E4E7;
+    border-radius: 0;
+    border-right: 1px solid #E4E4E7 ;
+    padding: 15px;
+}
   @media screen and (max-width:990px) {
     .container{
         width: 95%;
     }
+
+    .featureflex{
+        flex-direction: column;
+
+    }
+
+  
+    .bgx{
+        font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -2px;
+    text-align: left;
+    
+    }
+    
 
     .herocontent {
         flex-direction: column;
@@ -702,7 +836,7 @@ border: 1px solid #F1F1F1;
 
     .hero .herosidetwo img {
         margin-top: 20px;
-        width: 47%;
+        width: 80%;
         height: 100%;
         padding: 20px;
         object-fit: contain;
@@ -714,6 +848,19 @@ border: 1px solid #F1F1F1;
     .links{
         display: none;
     }
+    .featurebox img {
+        width: 100%;
+        height: 100%;
+        max-height: 300px;
+        object-fit: cover;
+    }
+    .featurebox{
+        flex-direction: column;
+    }
+
+    .featureimg{
+        width: 100%;
+    }
 
     .bigtext {
         margin-top: 20px;
@@ -721,6 +868,7 @@ border: 1px solid #F1F1F1;
         font-family: Poppins;
         font-size: 40px;
         font-weight: 500;
+        text-align: center;
     }
     .sometext {
         width: 80%;
