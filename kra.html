@@ -23,21 +23,27 @@
     <!-- <link rel="stylesheet" href="./body.css" /> -->
   </head>
   <body>
+  
+  
     <header>
       <div class="navitems">
-        <div class="logo">
-          <img src="images/IRMA-02.png" alt="" />
-        </div>
 
-        <div class="links">
-          <li>Solutions</li>
-          <li>About Us</li>
-          <li>Blog</li>
-        </div>
+  
+<div class="logo">
+<a href="index.html"><img src="https://grcv.netlify.app/images/IRMA-02.png" alt="">
+</a> </div>
 
-        <div class="cta redcta">Request a Demo</div>
-      </div>
-    </header>
+<div class="links">
+<a href="solutions.html">Solutions</a>
+<li></li>
+<li>Blog</li>
+</div>
+
+
+<div class="cta redcta" onclick="window.location.href = 'contact.html';" style="cursor: pointer;">Request a Demo</div>
+</div>
+  </header>
+
 
     <div class="mainHeader">
       <div class="container">
@@ -47,8 +53,8 @@
           stay ahead of today’s dynamic risk environment.
         </p>
         <div class="mainHeader__links links">
-          <a href="javascript:void(0)" class="links-blue">Request a Demo</a>
-          <a href="javascript:void(0)" class="links-grey">Contact Us</a>
+          <a href="javascript:void(0)" class="links-blue" onclick="window.location.href = 'contact.html';" style="cursor: pointer;">Request a Demo</a>
+          <a href="javascript:void(0)" class="links-grey" onclick="window.location.href = 'contact.html';" style="cursor: pointer;">Contact Us</a>
         </div>
         <div class="mainHeader__video video">
           <img src="./images/second.png" alt="" class="video__image" />
@@ -175,10 +181,24 @@
       </div>
     </div> -->
 
-    <div class="firstsection gbg">
+
+    <div class="firstsection gbg longer">
+      <style>
+        .longer{
+          height: 140vh;
+        }
+      
+        @media screen and (max-width: 1000px) {
+      
+          .longer{
+            height: fit-content;
+          }
+          
+        }
+      </style>
       <div class="container">
         <div class="benefitContainer">
-          <p class="benefitContainer__title">Benefits of KRI</p>
+          <p class="benefitContainer__title">Features</p>
           <p class="benefitContainer__info">
             We connect the dot at your company!
           </p>
@@ -252,9 +272,9 @@
     <div class="firstsection first__exempt">
       <div class="cloudservices">
         <div class="container">
-          <div class="blogtitles">BLOG</div>
+          <div class="blogtitles">IRMA</div>
           <div class="blogsecondtitle">
-            Get your updates on Governance, Risk and Compliance here!
+            Risk Control Self Access, Issue Tracker, Policy Document Management, Limit and Exposure Monitor
           </div>
 
           <br />
@@ -382,6 +402,34 @@
         </div>
       </div>
     </div>
+
+    <br>
+    <br>
+    <br>
+    
+    <div class="scheduleademo">
+        <div class="container">
+            <div class="shdemo">
+                <div class="smiley">
+                    👋
+                </div>
+                <div class="sometext">
+                    Looking for more Information.
+                </div>
+                
+                <div class="schedulebutton">
+                    <button onclick="window.location.href = 'contact.html';" style="cursor: pointer;">SCHEDULE A DEMO</button> 
+                </div>
+            </div>
+          
+        </div>
+    
+    </div>
+    <br>
+    <br>
+    <br>
+    
+
 
     <div class="footer">
       <div class="container">
