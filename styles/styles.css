@@ -229,6 +229,9 @@
   display: flex;
   justify-content: space-between;
 }
+.features .featureContainer__left .cards::-webkit-scrollbar{
+  width: 2px;
+}
 @media screen and (max-width: 768px) {
   .features .featureContainer__left {
     width: 100%;
